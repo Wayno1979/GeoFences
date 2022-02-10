@@ -66,7 +66,7 @@ class GeofenceBroadcastReceiver : BroadcastReceiver() {
                     Log.e(TAG, "Unknown Geofence: Abort Mission")
                     return
                 }
-                
+
                 val notificationManager = ContextCompat.getSystemService(
                     context,
                     NotificationManager::class.java
